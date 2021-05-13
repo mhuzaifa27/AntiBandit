@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#010116"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/uperlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:id="@+id/linear_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/secure0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext0"
+                    android:visibility="visible"
+                    />
+                <ImageView
+                    android:id="@+id/secure10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext10"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext20"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext30"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure40"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext40"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure50"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext50"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure60"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext60"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure70"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext70"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure80"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext80"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/secure100"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/securewithtext100"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+           <!-- <ImageView
+                android:id="@+id/txt_secure_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure0" />
+            &lt;!&ndash;Full Image 0% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 10% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow10"
+                android:layout_width="240dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/glow10"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure10"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 10% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 20% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow20"
+                android:layout_width="258dp"
+                android:layout_height="256dp"
+                android:layout_marginTop="38dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/glow20"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure20"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 20% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 30% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow30"
+                android:layout_width="265dp"
+                android:layout_height="279dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/glow30"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure30"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 30% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 40% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow40"
+                android:layout_width="270dp"
+                android:layout_height="269dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/glow40"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure40"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 40% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 50% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow50"
+                android:layout_width="272dp"
+                android:layout_height="272dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/glow50"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure50"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 50% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 60% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow60"
+                android:layout_width="270dp"
+                android:layout_height="272dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/glow60"
+                android:visibility="gone"
+                />
+
+
+            <ImageView
+                android:id="@+id/txt_secure_60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure60"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 60% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 70% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow70"
+                android:layout_width="275dp"
+                android:layout_height="276dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/glow70"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure70"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 70% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 80% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow80"
+                android:layout_width="277dp"
+                android:layout_height="275dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/glow80"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure80"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 80% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 90% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow90"
+                android:layout_width="276dp"
+                android:layout_height="280dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/glow90"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure90"
+                android:visibility="gone"/>
+            &lt;!&ndash;Full Image 90% ends&ndash;&gt;
+
+            &lt;!&ndash;Full Image 100% starts&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/glow100"
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/glow100"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:id="@+id/txt_secure_100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/secure10"
+                android:visibility="gone"/>-->
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lowerLayout"
+        android:layout_below="@+id/uperlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/sub_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="50dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_charging_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onChargingModeClick">
+
+                    <ImageView
+                        android:id="@+id/img_charging_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_battery_charging"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_headphone_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onHeadphoneClick">
+
+                    <ImageView
+                        android:id="@+id/img_headphone_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_headphone"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_pocket_sense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onPocketSenseClick">
+
+                    <ImageView
+                        android:id="@+id/img_pocket_sense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_pocket"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_motion_sense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onMotionSenseClick">
+
+                    <ImageView
+                        android:id="@+id/img_motion_sense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_motion"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/sub_linear"
+                android:paddingBottom="30dp"
+                android:visibility="visible">
+                <LinearLayout
+                    android:id="@+id/linear_ring_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:clickable="true"
+                    android:onClick="onRingMobileClick">
+
+                    <ImageView
+                        android:id="@+id/img_ring_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_ring_alarm"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_gps_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onGpsLocationClick">
+
+                    <ImageView
+                        android:id="@+id/img_gps_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_gps_location"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_battery_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onBatteryStatusClick">
+
+                    <ImageView
+                        android:id="@+id/img_battery_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_battery_status"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_torch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/border"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:onClick="onTorchModeClick">
+
+                    <ImageView
+                        android:id="@+id/img_torch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m_torch"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--ON/OFF Signal For Battery Removal Mode-->
+            <ImageView
+                android:id="@+id/charging_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/charging_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:visibility="gone"/>
+            <!--ends-->
+            <!--ON/OFF Signal For Headphone Removal Mode-->
+            <ImageView
+                android:id="@+id/headphone_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="180dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/headphone_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="180dp"
+                android:visibility="gone"/>
+            <!--ON/OFF Signal For Pocket Sense Mode-->
+            <ImageView
+                android:id="@+id/pocket_sense_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="260dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/pocket_sense_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="260dp"
+                android:visibility="gone"/>
+            <!--ends-->
+            <!--ON/OFF Signal For Motion Sense Mode-->
+            <ImageView
+                android:id="@+id/motion_sense_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="345dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/motion_sense_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="345dp"
+                android:visibility="gone"/>
+            <!--ends-->
+            <!--ON/OFF Signal For Ring Phone Mode-->
+            <ImageView
+                android:id="@+id/ring_alarm_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="100dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/ring_alarm_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="100dp"
+                android:visibility="gone"/>
+            <!--ends-->
+            <!--ON/OFF Signal For GPS Location Mode-->
+            <ImageView
+                android:id="@+id/gps_location_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="180dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/gps_location_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="180dp"
+                android:visibility="gone"/>
+            <!--ends-->
+            <!--ON/OFF Signal For Battery Status Mode-->
+            <ImageView
+                android:id="@+id/battery_status_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="260dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/battery_status_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="260dp"
+                android:visibility="gone"/>
+            <!--ends-->
+            <!--ON/OFF Signal For Torch Mode-->
+            <ImageView
+                android:id="@+id/torch_on"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_on"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="345dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/torch_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_off"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="345dp"
+                android:visibility="gone"/>
+            <!--ends-->
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_nev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu="@menu/bottom_nevigation_menu"
+            app:itemIconTint="@drawable/bottom_nev_icon_color"
+            app:itemTextColor="@color/grey">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,508 @@
+<resources>
+    <string name="app_name">AntiBandit</string>
+    <string name="motionSenseDescription">Motion sensor is used to detect the motion of your phone. When you started that feature the cell phone automatically locked after 5 seconds and after locking if you moves the mobile the siren started and the device finger sensor disabled and the administrator lock is enabled. When you unlock the device the siren stopped. This feature works only for that users who has a pin lock security. To use this feature you have to enabled the device administrator properties for this application</string>
+    <string name="BatteryStatusDescription">This feature is basically used to check out the battery status. This works with the SMS service. The special code is set to use this feature at the time of enabling a feature. when a user sends a simple text message from any number with this pre set code that feature return the battery status to that number. No extra prerequisites are required to use this feature.</string>
+    <string name="chargingSenseDescription">When charging your smart phone, charger mode detects if someone disconnects it and then triggers a loud siren that will help to you to get alerted instantly and prevent theft. If a person again attached the charger the siren will stopped again and if it not attached the charger back then siren remain started till the charger is not connect. To use this feature you have to connect the charger first. To disable this feature you have to connect charger first if it is enabled</string>
+    <string name="gpsLocationDescription">This feature is most important feature for the safety of mobile phones. This feature basically deals with the GPS Location. At the time of enabling this feature user sets a code. When user sends that code from any mobile this feature returns a GPS location to that number. To use this feature you have to enable the location.</string>
+    <string name="headphoneSenseDescription">When you are listening songs and other media through headphone or hands free this feature is enabled if anyone disconnects the headphone the siren is started and ring till the headphone is connected back. This feature is not disabled till the headphone connected back. You can only use this feature while using the headphone This feature needs no prerequisites.</string>
+    <string name="pocketSenseDescription">Pocket sensor is used to detect the pocket sensing motion of your phone. When you started that feature the cell phone automatically locked after 5 seconds and after locking if you moves the mobile from the pocket the siren started and the device finger sensor disabled and the administrator locked is enabled. When you unlock the device the siren stopped. This feature works only for that users who has a pin lock security. To use this feature you have to enabled the device administrator properties for this application</string>
+    <string name="ringAlarmDescription">This feature is used with the SMS service. At the time of enabling the feature user sets a code. when you sends that code from any device with simple text msg the device locked automatically and siren started. When you unlocked the screen the siren stopped. This feature required to make device administrator this application.</string>
+    <string name="torchModeDescription">Torch mode is used to make a torch light enable and disable with the help of text message from any device. To ON the torch from text your code is \'FLASHON\' and to OFF the torch the code is \'FLASHOFF\'. This feature required no prerequisites.</string>
+    <string name="default_passphrase_for_battery_status">battery</string>
+    <string name="description_for_battery_status">Set a Keyword for Battery</string>
+    <string name="save">Save</string>
+    <string name="description_for_ring_alarm">Set a Keyword for Ring Alarm</string>
+    <string name="default_passphrase_for_ring_alarm">ring</string>
+    <string name="sms_no_requests">No requests</string>
+
+
+    /////////////////////////////////////////////////
+
+
+    ////
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="allft_GPS_object">GPS location</string>
+    <string name="allft_battery_low_battery_object">Low battery</string>
+    <string name="allft_battery_object">Battery</string>
+    <string name="allft_battery_value_of_smartphone_is">"Your smartphone's battery level is: "</string>
+    <string name="allft_call_date">"Date : "</string>
+    <string name="allft_call_duration">"Duration : "</string>
+    <string name="allft_call_phone_number">"Phone Number : "</string>
+    <string name="allft_call_type">"Type : "</string>
+    <string name="allft_disable_admin">Disable Admin Permissions</string>
+    <string name="allft_enable_admin">Enable Admin Permissions</string>
+    <string name="allft_gps_position_is">"GPS location is : "</string>
+    <string name="allft_incoming">incoming</string>
+    <string name="allft_just_found_your_phone">I just found your phone...</string>
+    <string name="allft_list_of_commands_object">List of Commands</string>
+    <string name="allft_list_of_contacts_object">Your contacts</string>
+    <string name="allft_logcall_of_smartphone_object">Call Log</string>
+    <string name="allft_low_battery_value_of_smartphone_is">"Low Battery : "</string>
+    <string name="allft_missed">missed</string>
+    <string name="allft_operator_is">Operator</string>
+    <string name="allft_outgoing">outgoing</string>
+    <string name="allft_phone_id_is">IMEI, MEID or ESN</string>
+    <string name="allft_phone_number_is">Phone number</string>
+    <string name="allft_please_find_all_commands_below">List of available SMS commands.</string>
+    <string name="allft_please_find_list_of_contacts">Please find attached your contacts as VCard file.</string>
+    <string name="allft_please_find_logcall_of_smartphone">Please find below the call log attached.</string>
+    <string name="allft_please_find_video_capture">Please find attached your video capture.</string>
+    <string name="allft_please_i_lost_my_phone">"I lost my smartphone.
+Please contact me if you found it. Thank you !"</string>
+    <string name="allft_popup_message_object">Smartphone found !</string>
+    <string name="allft_quit">Quit</string>
+    <string name="allft_response">Response:</string>
+    <string name="allft_selfie_taken_object">Selfie !</string>
+    <string name="allft_send">Send</string>
+    <string name="allft_sim_changed_message_object">SIM change detected !</string>
+    <string name="allft_sim_country_iso_is">SIM country iso</string>
+    <string name="allft_sim_data">Anti-Theft Security has detected a SIM change !</string>
+    <string name="allft_sim_number_is">SIM serial number</string>
+    <string name="allft_simcard_removed">Your SIM card has been removed from your device !</string>
+    <string name="allft_stop">STOP</string>
+    <string name="allft_thief_attached">Please find your selfie attached.</string>
+    <string name="allft_video_object">Video</string>
+    <string name="app_email">mosi.antitheft.contact@gmail.com</string>
+    <string name="app_version">V 2.6.2</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apprating_later">Later</string>
+    <string name="apprating_no_thanks">No, thanks</string>
+    <string name="apprating_please_rate_it">If you enjoy using this app, please take a moment to rate it. Thanks for your support !</string>
+    <string name="apprating_rate">Rate</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <!--<string name="com.crashlytics.android.build_id">3a0ca506-da59-448f-85c8-718db170e88d</string>
+    -->
+    <string name="common_admin">admin</string>
+    <string name="common_admin_descr">Enable the admin rights</string>
+    <string name="common_admin_maj">ADMIN</string>
+    <string name="common_autonomous_mode">Autonomous Mode</string>
+    <string name="common_battery">battery</string>
+    <string name="common_battery_descr">Sends the battery level</string>
+    <string name="common_battery_maj">BATTERY</string>
+    <string name="common_block_poweroff">DISABLE ON/OFF</string>
+    <string name="common_block_poweroff_descr">Disables power button when smartphone is locked</string>
+    <string name="common_block_statusbar">DISABLE STATUS BAR</string>
+    <string name="common_charger_descr">Triggers a loud alarm when charger is disconnected and takes selfies</string>
+    <string name="common_charger_disconnection_maj">CHARGER DISCONNECTION</string>
+    <string name="common_charger_maj">CHARGER</string>
+    <string name="common_charger_mode">Cable unplugged</string>
+    <string name="common_code_secret">Secret Code</string>
+    <string name="common_commands">commands</string>
+    <string name="common_commands_descr">Sends the list of available commands</string>
+    <string name="common_commands_maj">COMMANDS</string>
+    <string name="common_contact">contact</string>
+    <string name="common_contact_descr">Returns the contact list</string>
+    <string name="common_contact_maj">CONTACTS</string>
+    <string name="common_continue">continue</string>
+    <string name="common_detective_maj">DETECTIVE</string>
+    <string name="common_detective_mode">detective</string>
+    <string name="common_feature_off">OFF</string>
+    <string name="common_feature_on">ON</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_gps">gps</string>
+    <string name="common_gps_descr">Returns the GPS location</string>
+    <string name="common_gps_maj">GPS</string>
+    <string name="common_hideicon">hideicon</string>
+    <string name="common_hideicon_descr">Hides the app icon</string>
+    <string name="common_hideicon_maj">HIDE ICON</string>
+    <string name="common_incorrect_password_descr">Sends a selfie after 2 malicious unlock attempts</string>
+    <string name="common_incorrect_password_maj">ACCESS CONTROL</string>
+    <string name="common_light">light</string>
+    <string name="common_light_descr">Turns on the lamp torch</string>
+    <string name="common_light_maj">LIGHT</string>
+    <string name="common_lock">lock</string>
+    <string name="common_lock_descr">Locks the smartphone remotely</string>
+    <string name="common_lock_maj">LOCK</string>
+    <string name="common_logcall">logcall</string>
+    <string name="common_logcall_descr">Sends the call log</string>
+    <string name="common_logcall_maj">LOG CALL</string>
+    <string name="common_lowbattery_descr">Sends a low battery alert with GPS location</string>
+    <string name="common_lowbattery_maj">LOW BATTERY</string>
+    <string name="common_motion_descr">Triggers a loud alarm when your smartphone moves and takes selfies</string>
+    <string name="common_motion_detection_maj">MOTION DETECTION</string>
+    <string name="common_motion_maj">MOTION</string>
+    <string name="common_motion_mode">Motion detected</string>
+    <string name="common_new_sim_card">NEW SIM CARD</string>
+    <string name="common_number_of_fts">27</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_popup">popup</string>
+    <string name="common_popup_descr">Displays a message on the screen and takes selfies</string>
+    <string name="common_popup_maj">POPUP</string>
+    <string name="common_question_mark">\?</string>
+    <string name="common_report">report</string>
+    <string name="common_report_descr">Sends selfie + contacts + call log + GPS + battery level</string>
+    <string name="common_report_maj">REPORT</string>
+    <string name="common_ring">ring</string>
+    <string name="common_ring_descr">Makes the phone ring at max volume even on silent mode</string>
+    <string name="common_ring_maj">RING</string>
+    <string name="common_selfie">selfie</string>
+    <string name="common_selfie_descr">Takes a photo using front camera</string>
+    <string name="common_selfie_maj">SELFIE</string>
+    <string name="common_sensibility">SENSIBILITY</string>
+    <string name="common_showicon">showicon</string>
+    <string name="common_showicon_descr">Unhides the app icon</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="common_sim_descr">Detects new SIM card inserted and sends the details with a selfie and GPS location</string>
+    <string name="common_sim_maj">SIM CHANGE</string>
+    <string name="common_siren">siren</string>
+    <string name="common_siren_descr">Triggers an alarm and takes selfies</string>
+    <string name="common_siren_maj">SIREN</string>
+    <string name="common_sms_mode">SMS Mode</string>
+    <string name="common_statusbar_descr">Disables status bar when smartphone is locked</string>
+    <string name="common_unavailable">Unavailable</string>
+    <string name="common_video">video</string>
+    <string name="common_video_descr">Captures a video using front camera</string>
+    <string name="common_video_maj">VIDEO</string>
+    <string name="common_volume">VOLUME</string>
+    <string name="common_wipedata">wipedata</string>
+    <string name="common_wipedata_descr">Initiates a factory reset</string>
+    <string name="common_wipedata_maj">RESET</string>
+    <string name="config_configuration">Configuration</string>
+    <string name="config_feature_admin">ADMIN</string>
+    <string name="config_feature_battery">BATTERY</string>
+    <string name="config_feature_commands">COMMANDS</string>
+    <string name="config_feature_contact">CONTACT</string>
+    <string name="config_feature_detective">DETECTIVE</string>
+    <string name="config_feature_disable_all">DISABLE ALL</string>
+    <string name="config_feature_enable_all">ENABLE ALL</string>
+    <string name="config_feature_gps">GPS</string>
+    <string name="config_feature_hideicon">HIDEICON</string>
+    <string name="config_feature_light">LIGHT</string>
+    <string name="config_feature_lock">LOCK</string>
+    <string name="config_feature_logcall">LOGCALL</string>
+    <string name="config_feature_popup">POPUP</string>
+    <string name="config_feature_report">REPORT</string>
+    <string name="config_feature_ring">RING</string>
+    <string name="config_feature_selfie">SELFIE</string>
+    <string name="config_feature_siren">SIREN</string>
+    <string name="config_feature_wipedata">WIPEDATA</string>
+    <string name="config_off">OFF</string>
+    <string name="config_on">ON</string>
+    <string name="free_ft_count">(7)</string>
+    <string name="ft_admin_disabled">Admin rights disabled !</string>
+    <string name="ft_beaware_admin_disabled">Please note that some features will not work unless Admin Rights are enabled.</string>
+    <string name="ft_cancel">Cancel</string>
+    <string name="ft_charger_demo_disabled">Charger mode is now disabled</string>
+    <string name="ft_charger_demo_enabled">Charger mode is now enabled !</string>
+    <string name="ft_charger_notification">Anti-Theft Security - Charger Mode</string>
+    <string name="ft_charger_title">CHARGER</string>
+    <string name="ft_code_forgotten">my code ?</string>
+    <string name="ft_command_sms">SMS command :</string>
+    <string name="ft_command_sms_explanation_battery">The phone will send the battery level when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_commands">The phone will send the list of commands when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_contact">The phone will send the contact list when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_gps">The phone will return GPS location when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_hideicon">The app icon will disappear when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_light">The phone will turn the flash on when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_lock">The phone will be locked when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_logcall">The phone will send the call log when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_popup">The phone will display a popup when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_report">The phone will send the report when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_ring">The phone will ring when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_selfie">The phone will take a selfie when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_siren">The phone will start the siren when it receives an SMS with following command:</string>
+    <string name="ft_command_sms_explanation_video">"The phone will start the video capture when it receives an SMS with following command : "</string>
+    <string name="ft_command_sms_explanation_wipedata">The phone will start the factory reset when it receives an SMS with following command:</string>
+    <string name="ft_commands_explanation">To test this feature please enter your phone number. You will receive an SMS* and an Email containing all the commands available.</string>
+    <string name="ft_contact_will_be_sent">"Your contact list will be sent to following adress: "</string>
+    <string name="ft_description">Description :</string>
+    <string name="ft_description_admin">This feature enables the admin rights for this app.</string>
+    <string name="ft_description_battery">Sends the battery level by email and SMS.</string>
+    <string name="ft_description_charger">"When charging your smartphone, charger mode detects if someone disconnects it and then triggers a loud siren that will help you to get alerted instantly and prevent theft. A selfie is captured if a wrong secret code is entered, if any key press is detected and finally 3 sec after the alarm starts.
+
+To disable charger mode temporarily, simply tap on the notification.
+
+Do not forget to lock your screen when charging your smartphone for optimal safety."</string>
+    <string name="ft_description_commands">Sends the list of all commands available via email and SMS.</string>
+    <string name="ft_description_contact">Sends your contact list via email.</string>
+    <string name="ft_description_detective">"Detective mode handles the following :
+
+1. SIM CHANGE
+Sends a selfie and all information related to new SIM card inserted via email.
+
+2. LOW BATTERY
+Sends an email alert along with GPS location in case of low battery.
+
+3. ACCESS CONTROL
+Sends an email alert with a selfie attached when 2 wrong passwords are entered.
+
+4. DISABLE ON/OFF
+Disables power button whenever your smartphone is locked."</string>
+    <string name="ft_description_detective_status_bar">"
+5. DISABLE STATUS BAR
+Prevents the status bar from expanding when the device is locked."</string>
+    <string name="ft_description_gps">Sends the GPS location of your smartphone by SMS and email using Google Maps.</string>
+    <string name="ft_description_hideicon">"Hides the app icon in order to prevent the thief from uninstalling it. There are 2 ways of launching the app then :
+
+1. Call #007
+2. Call #"</string>
+    <string name="ft_description_light">Turns the light of your smartphone on.</string>
+    <string name="ft_description_lock">This feature locks your smartphone.</string>
+    <string name="ft_description_logcall">Sends the call log via email.</string>
+    <string name="ft_description_motion">"Motion mode detects if someone touches your smartphone and then triggers a loud siren that will help you to get alerted instantly. A selfie is captured if a wrong secret code is entered, if any key press is detected and finally 3 sec after the alarm starts.
+
+To disable motion mode, tap on the notification.
+
+Do not forget to lock your screen for optimal safety.
+"</string>
+    <string name="ft_description_popup">"Displays a popup message on your screen so the person who found it can contact you via email and SMS. You can also customize the message.
+Default: \"[code]:popup\"
+Customized: \"[code]:popup:yourMessage\"
+
+A selfie will also be taken upon key press."</string>
+    <string name="ft_description_report">Sends by email the following : selfie, contact list, call log and battery level. GPS location will also be sent via SMS.</string>
+    <string name="ft_description_ring">"Makes your smartphone ring during 2 minutes even if it's on silent or vibrate mode. The flash light will be turned on in the meantime."</string>
+    <string name="ft_description_selfie">Sends a picture using the front camera of your smartphone by email.</string>
+    <string name="ft_description_siren">Triggers a loud siren protected by your secret code. A selfie is captured if a wrong secret code is entered, if any key press is detected and 3 sec after the alarm starts.</string>
+    <string name="ft_description_video">Captures a video using front camera and sends it by email.</string>
+    <string name="ft_description_wipedata">Wipes your personal data. Be cautious, the smartphone will start the factory reset a few seconds after receiving the SMS command.</string>
+    <string name="ft_detective_demo_description">Detective mode is now enabled. It requires admin rights and GPS location in order to send the position in case of low battery.</string>
+    <string name="ft_detective_is_disabled">Detective mode is disabled !</string>
+    <string name="ft_device_admin_disclosure">Anti-Theft Security needs admin rights to monitor any incorrect unlock attempts, lock the screen remotely and erase all data if requested by the user.</string>
+    <string name="ft_disable">DISABLE</string>
+    <string name="ft_dismiss">Dismiss</string>
+    <string name="ft_dont_ask_again">"Don't ask again"</string>
+    <string name="ft_email_to_check">Email :</string>
+    <string name="ft_enable">ENABLE</string>
+    <string name="ft_gps_disabled">GPS disabled !</string>
+    <string name="ft_have_to_enable_admin">You should give admin rights to the app to use this feature.</string>
+    <string name="ft_have_to_enable_gps">You should enable GPS location to use this feature.</string>
+    <string name="ft_hide">HIDE</string>
+    <string name="ft_hide_icon_disable_reminder">App icon will reappear. The process takes some time or requires a reboot depending on the smartphone.</string>
+    <string name="ft_hide_icon_time_to_proceed">The process takes some time or requires a reboot depending on the smartphone.</string>
+    <string name="ft_how_to_launch">You can launch the app by calling the following number : #007</string>
+    <string name="ft_how_to_show">You can show the app icon again from this menu or by sending the following SMS command :</string>
+    <string name="ft_info">INFO</string>
+    <string name="ft_loading_in_progress">Work in progress...</string>
+    <string name="ft_logcall_will_be_sent">"The log call will be sent to following adress: "</string>
+    <string name="ft_modify">Update</string>
+    <string name="ft_motion_alarm_activation">Alarm activation</string>
+    <string name="ft_motion_notification_title">Motion alarm enabled</string>
+    <string name="ft_need_to_go_pro">You need to get Pro version</string>
+    <string name="ft_no_internet_connection">No Internet connection</string>
+    <string name="ft_not_enabled">You need to enable the feature to perform a test</string>
+    <string name="ft_notification_tap_to_disable">Tap to disable</string>
+    <string name="ft_number_to_check">Number :</string>
+    <string name="ft_ok">OK</string>
+    <string name="ft_or">or</string>
+    <string name="ft_phone_number_hint">phone number</string>
+    <string name="ft_please_detective_check_settings">Please check the following data :</string>
+    <string name="ft_please_enter_phone_number">Please enter your phone number first</string>
+    <string name="ft_please_tap_to_enable_admin_rights">"Some features will not work.
+Please tap to enable admin rights."</string>
+    <string name="ft_popup_explanation">To test this feature please enter your phone number to receive a message via SMS* and email from the person who found your phone.</string>
+    <string name="ft_prerequesite">Prerequisite :</string>
+    <string name="ft_prerequisite_admin">This feature requires admin rights to be enabled.</string>
+    <string name="ft_prerequisite_admin_gps">This feature requires GPS location and admin rights to be enabled.</string>
+    <string name="ft_prerequisite_email">This feature requires your email address.</string>
+    <string name="ft_prerequisite_gps">This feature requires GPS location to be enabled.</string>
+    <string name="ft_prerequisite_gps_email">This feature requires your email address and GPS location to be enabled.</string>
+    <string name="ft_prerequisite_none">This feature does not require any prerequisite.</string>
+    <string name="ft_receive_code_by_email">Would you like to receive your secret code by email ?</string>
+    <string name="ft_report_battery">To test this feature please enter your phone number. You will receive an SMS* containing the battery level of your smartphone.</string>
+    <string name="ft_report_explanation">To test this feature please enter your phone number. You will receive an SMS* containing a google maps link. Please open the link to check GPS location of your smartphone. The rest of the report will be sent via Email.</string>
+    <string name="ft_secret_code">code</string>
+    <string name="ft_selfie_will_be_sent">"A selfie will be sent to following adress: "</string>
+    <string name="ft_show">UNHIDE</string>
+    <string name="ft_sms_cost">*Standard SMS cost</string>
+    <string name="ft_sms_explanation">To test this feature please enter your phone number. You will receive an SMS* containing a google maps link. Please open the link to check GPS location of your smartphone.</string>
+    <string name="ft_test">TEST</string>
+    <string name="ft_video_will_be_sent">"A video will be sent to following adress: "</string>
+    <string name="ft_wait_email_is_coming">You will receive an email in few seconds...</string>
+    <string name="ft_wait_sms_is_coming">You will receive an SMS in few seconds...</string>
+    <string name="ft_wipedata_demo_description">This feature is not available for testing to avoid any inconvenience. The factory reset will start a few seconds after receiving the SMS command. Be cautious, the operation is irreversible.</string>
+    <string name="howto_app_response">The app answers by SMS or by email</string>
+    <string name="howto_list_of_commands">List of commands</string>
+    <string name="howto_mode_charger">Charge your smartphone safely with charger mode</string>
+    <string name="howto_mode_charger_keys_disabled">4. Disables volume keys</string>
+    <string name="howto_mode_charger_secret_code">3. Secures with secret code</string>
+    <string name="howto_mode_charger_takes_selfie">2. Takes selfies</string>
+    <string name="howto_mode_charger_trigger_alarm">1. Triggers a loud siren</string>
+    <string name="howto_mode_detective">The detective mode monitors your smartphone at any time</string>
+    <string name="howto_mode_motion">Keep an eye on your smartphone with motion mode</string>
+    <string name="howto_send_command">Send an SMS command to your lost smartphone</string>
+    <string name="howto_title">How to use the app ?</string>
+    <string name="info_contact_suggestion">Contact - Suggestion</string>
+    <string name="info_developped_by">MOSI Apps</string>
+    <string name="info_install_market">Could not open Android market, please install the market app.</string>
+    <string name="info_rate_the_app">Rate the app</string>
+    <string name="info_share_app">Share the app</string>
+    <string name="info_terms_and_conditions">Terms and conditions</string>
+    <string name="intro_antitheft_security">Anti-Theft Security</string>
+    <string name="intro_battery_monitoring">4. Battery monitoring</string>
+    <string name="intro_charger">CHARGER :</string>
+    <string name="intro_code_updated_objet">Secret Code</string>
+    <string name="intro_detective">DETECTIVE :</string>
+    <string name="intro_email">Email</string>
+    <string name="intro_email_explanation">Anti-Theft Security sends you informations via Email when some SMS commands are received.</string>
+    <string name="intro_four_digit_code">4 digit code</string>
+    <string name="intro_gmail_api_enabled">Enabled !</string>
+    <string name="intro_go">GO</string>
+    <string name="intro_info_user">Please choose a secret code :</string>
+    <string name="intro_list_of_all_SMS_commands">LIST OF ALL SMS COMMANDS</string>
+    <string name="intro_lock_detection">2. Unlock detection</string>
+    <string name="intro_lock_statusbar">5. Status bar deactivation</string>
+    <string name="intro_lost">LOST</string>
+    <string name="intro_ok">OK</string>
+    <string name="intro_phone_number">phone number</string>
+    <string name="intro_please_enter_4_digits">Please enter a 4 digit code</string>
+    <string name="intro_please_fill_out_the_fields">Please set your secret code to continue</string>
+    <string name="intro_power_disable">1. Power key deactivation</string>
+    <string name="intro_presentation_detective">"Monitor the activity of your smartphone
+using the detective mode"</string>
+    <string name="intro_presentation_step1">Send a command by SMS to your lost phone</string>
+    <string name="intro_presentation_step2">Retrieve information by SMS or Email</string>
+    <string name="intro_secret_code">"Secret code : "</string>
+    <string name="intro_seeyousoon">Stay tuned !</string>
+    <string name="intro_sim_detection">3. SIM change detection</string>
+    <string name="intro_support">Support: mosi.antitheft.contact@gmail.com</string>
+    <string name="intro_user_term_condition">"By using this app, you accept the
+"<u>Terms and Conditions</u>.</string>
+    <string name="intro_welcome">Welcome to</string>
+    <string name="intro_welcome_email">Welcome</string>
+    <string name="intro_welcome_email_body">"Welcome to Anti-Theft Security !
+
+This app allows you to find your lost or stolen smartphone.
+
+Support: mosi.antitheft.contact@gmail.com"</string>
+    <string name="intro_welcome_first_time">"Your secret code is: "</string>
+    <string name="intro_welcome_objet">Welcome !</string>
+    <string name="intro_why_gmail_api">Anti-Theft Security uses your own Gmail account to send emails. This ensures that your personal data such as photos, locations etc. do not end up on third party servers.</string>
+    <string name="intro_why_password">"This secret code allows you to customize and secure the commands sent to your smartphone. Don't share it with anyone."</string>
+    <string name="logging_activity_log">Activity Log</string>
+    <string name="logging_clear_log">CLEAR</string>
+    <string name="main_more">MORE</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_item_configuration">Configuration</string>
+    <string name="nav_item_how">HowTo</string>
+    <string name="nav_item_infos">Infos</string>
+    <string name="nav_item_logging">Log</string>
+    <string name="nav_item_pro">Pro Version</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pro_ft_count">(21)</string>
+    <string name="promotion_congrats">"*  CONGRATULATIONS  *"</string>
+    <string name="promotion_pro_limitation">Limited to the first 500 downloads</string>
+    <string name="promotion_pro_offered">PRO VERSION OFFERED !</string>
+    <string name="purchase_buy">BUY</string>
+    <string name="purchase_delete_this_banner">Delete this banner, buy Pro version and unlock all features</string>
+    <string name="purchase_device_supported">Google prevents apps from hiding the status bar starting Android 8.0 Oreo. If you still want DISABLE STATUS BAR feature, you need to install Antitheft Security as system app.</string>
+    <string name="purchase_free">FREE</string>
+    <string name="purchase_get_lifetime_license">"Unlock Pro version features
+One time fee - Lifetime license"</string>
+    <string name="purchase_know_more">"Know
+more"</string>
+    <string name="purchase_pro">PRO</string>
+    <string name="purchase_thanks_for_upgrading">Thank you for upgrading to Pro !</string>
+    <string name="purchase_version_pro">Pro Version</string>
+    <string name="rec_admin_disabled">Device Admin: disabled</string>
+    <string name="rec_admin_enabled">Device Admin: enabled</string>
+    <string name="search_menu_title">Search</string>
+    <string name="setting_admin_right">Admin</string>
+    <string name="setting_admin_right_descr">Admin rights are mandatory for the use of certain features (lock, wipedata, detective...)</string>
+    <string name="setting_code">Code</string>
+    <string name="setting_code_descr">This code allows you to secure the commands sent via SMS</string>
+    <string name="setting_compare">COMPARE</string>
+    <string name="setting_disable">DISABLE</string>
+    <string name="setting_email">Email</string>
+    <string name="setting_email_descr">This email address will be used to send data from your smartphone if it is lost or stolen</string>
+    <string name="setting_enable">ENABLE</string>
+    <string name="setting_gps">GPS</string>
+    <string name="setting_gps_descr">Enable GPS to get the location of your smartphone</string>
+    <string name="setting_ok">OK</string>
+    <string name="setting_please_enable_admin">Please enable the admin rights</string>
+    <string name="setting_setting">Settings</string>
+    <string name="setting_sim">SIM</string>
+    <string name="setting_sim_descr">Save your new sim card in order to be alerted in case of sim change</string>
+    <string name="setting_sim_initialized">SIM saved !</string>
+    <string name="setting_uninstall">Uninstall</string>
+    <string name="setting_uninstall_descr">By clicking OK, the admin rights will be disabled in order to allow the application to be uninstalled</string>
+    <string name="setting_upgrade">Upgrade</string>
+    <string name="setting_upgrade_descr">Buy Pro version and unlock all features</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+
+
+    <string name="gps_network_not_enabled">GPS disabled</string>
+    <string name="open_location_settings">Settings</string>
+    <string name="exit_application">Exit</string>
+    <string name="enabling_gps_explanation">To use this application you must enable GPS in system settings</string>
+
+    <string name="description">Set a Keyword for Getting location</string>
+    <string name="default_passphrase">location</string>
+
+    <string name="protected_list_title">Check protected list.</string>
+    <string name="protected_list_explanation">To use this application you must check that it can operate in sleep mode.</string>
+
+    <string name="accessibility_list_title">Enable accessibility service.</string>
+    <string name="accessibility_list_explanation">To work properly on devices from some manufacturer like Huawei, Mi and etc.
+        Application must be registered as accessibility service. If you have device from on of such brand,
+        or app didn\'t work after reboot, you mast enable Anti Bandit accessibility service. </string>
+    <string name="open_accessibility_settings">To services</string>
+    <string name="skip_accessibility_settings">Skip</string>
+    <string name="already_processed">Request already processed but will be updated</string>
+    <string name="sms_welcome">Last known location is undefined. Fine location will be send to you later.</string>
+    <string name="sms_last_known">Last known location is: </string>
+
+    <string name="foreground_start">Initiated positioning</string>
+    <string name="by_request">By request from phone: </string>
+
+    <string name="foreground_start_for_ring_alarm">Initiated Alarm</string>
+    <string name="by_request_for_ring_alarm">By request from phone: </string>
+
+    <string name="accessibility_service_description">
+        On some devices form Huawei, OnePlus, Mi and etc OS prevent apps from starting up their services automatically on boot complete. To avoid it bug we need registered and enable accessibility service.
+        \n Full explanation of this trick can be found here: https://stackoverflow.com/questions/41524459/broadcast-receiver-not-working-after-device-reboot-in-android/41627296
+    </string>
+
+
+</resources>

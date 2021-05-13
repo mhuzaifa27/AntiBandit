@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back_color"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+        <ImageView
+            android:id="@+id/img_back_aboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_arrow_back_white_24dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="backImageClick"/>
+        <TextView
+            android:id="@+id/txt_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="Help"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:background="@drawable/black_border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Autonomous Mode"
+                   android:layout_gravity="center"
+                   android:textSize="20sp"
+                   android:textColor="@color/white"/>
+
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_centerHorizontal="true"
+                   android:paddingTop="10dp">
+
+                   <LinearLayout
+                       android:id="@+id/linear_charging_mode"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="10dp"
+                       android:paddingBottom="10dp"
+                       android:paddingRight="10dp"
+                       android:paddingLeft="10dp"
+                       android:background="@drawable/border"
+                       android:layout_marginRight="10dp"
+                       android:clickable="true">
+
+                       <ImageView
+                           android:id="@+id/img_charging_mode"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/w_battery_charging"
+                           />
+                   </LinearLayout>
+
+
+                   <LinearLayout
+                       android:id="@+id/linear_headphone_mode"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="10dp"
+                       android:paddingBottom="10dp"
+                       android:paddingRight="10dp"
+                       android:paddingLeft="10dp"
+                       android:background="@drawable/border"
+                       android:layout_marginRight="10dp"
+                       android:clickable="true"
+                       >
+
+                       <ImageView
+                           android:id="@+id/img_headphone_mode"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/w_headphone"
+                           />
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:id="@+id/linear_pocket_sense"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="10dp"
+                       android:paddingBottom="10dp"
+                       android:paddingRight="10dp"
+                       android:paddingLeft="10dp"
+                       android:background="@drawable/border"
+                       android:layout_marginRight="10dp"
+                       android:clickable="true"
+                       >
+
+                       <ImageView
+                           android:id="@+id/img_pocket_sense"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/w_pocket"
+                           />
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:id="@+id/linear_motion_sense"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="10dp"
+                       android:paddingBottom="10dp"
+                       android:paddingRight="10dp"
+                       android:paddingLeft="10dp"
+                       android:background="@drawable/border"
+                       android:layout_marginRight="10dp"
+                       android:clickable="true">
+
+                       <ImageView
+                           android:id="@+id/img_motion_sense"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/w_motion"
+                           />
+                   </LinearLayout>
+
+               </LinearLayout>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="The above mentioned four features are used in autonomous mode it means you just need to fulfill their requirements and you can use these features. Each feature is explained corresponding to its feature activity"
+                   android:layout_marginTop="10dp"
+                   android:textSize="15sp"
+                   android:textColor="@color/white"
+                   android:layout_marginLeft="20dp"/>
+
+           </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/header"
+            android:background="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMS Mode"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:id="@+id/linear_ring_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/border"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img_ring_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/w_ring_alarm"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_gps_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/border"
+                        android:layout_marginRight="10dp"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img_gps_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/w_gps_location"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_battery_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/border"
+                        android:layout_marginRight="10dp"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img_battery_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/w_battery_status"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_torch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/border"
+                        android:layout_marginRight="10dp"
+                        android:clickable="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img_torch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/w_torch"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The above mentioned four features are used in SMS mode it means all these features needs SMS code for performing their actions. Each feature is explained corresponding to its feature activity"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
